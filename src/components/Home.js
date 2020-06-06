@@ -20,12 +20,12 @@ const Home = () => {
               </p>{' '}
             </div>
             <div>
-              <img src={img4} style={imgStyle} alt="image1" />{' '}
+              <img src={img4} className="imgStyle" alt="image1" />{' '}
             </div>
           </div>
           <div className="grid _grid">
             <div>
-              <img src={img1} style={imgStyle} alt="image1" />{' '}
+              <img src={img1} className="imgStyle" alt="image1" />{' '}
             </div>
             <div>
               <h3>LOREM</h3>
@@ -73,7 +73,5 @@ const Home = () => {
     </div>
   )
 }
-
-const imgStyle = { maxWidth: '450px' }
 
 export default Home
