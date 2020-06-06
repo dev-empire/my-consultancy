@@ -33,7 +33,7 @@
   font-size: 35px;
   font-style: oblique;
   font-weight: 500;
-  margin: 2.5rem 0;
+  margin: 2rem 0 0 0;
 }
 
 .grid {
@@ -105,5 +105,13 @@ a {
 @media (max-width: 563px) {
   .grid {
     grid-template-columns: 1fr;
+  }
+  .flexbox {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .flexbox > div {
+    margin: 1rem;
   }
 }

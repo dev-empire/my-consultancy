@@ -1,5 +1,4 @@
 import React from 'react'
-import Contact from '../Contact'
 
 const Footer = () => {
   return (
@@ -17,7 +16,7 @@ const Footer = () => {
             <a href="/about">
               <li>About</li>
             </a>
-            <a href="/contact" component={Contact}>
+            <a href="/contact">
               <li>Contact</li>
             </a>
           </ul>
