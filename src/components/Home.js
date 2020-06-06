@@ -12,7 +12,7 @@ const Home = () => {
 
           <div className="grid">
             <div>
-              <h3>LOREM</h3>
+              <h3>ECSTASY</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Repellendus ut deleniti tempora Lorem, ipsum dolor sit amet
@@ -28,7 +28,7 @@ const Home = () => {
               <img src={img1} className="imgStyle" alt="image1" />{' '}
             </div>
             <div>
-              <h3>LOREM</h3>
+              <h3>UNITY</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                 Repellendus ut deleniti tempora Lorem, ipsum dolor sit amet
