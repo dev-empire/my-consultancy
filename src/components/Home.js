@@ -9,9 +9,8 @@ const Home = () => {
       <div className="container">
         <div className="section-1">
           <h1 className="head">Our Agency</h1>
-
           <div className="grid">
-            <div>
+            <div className="shadow">
               <h3>ECSTASY</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
@@ -45,8 +44,7 @@ const Home = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi
                 dolorum iusto hic similique, labore dignissimos corporis, neque
-                dicta quisquam laboriosam non, velit perspiciatis a. A et
-                tenetur hic quis culpa?
+                dicta quisquam laboriosam non, velit perspiciatis a.
               </p>
             </div>
             <div className="flex-item">
@@ -55,7 +53,7 @@ const Home = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusamus tempore consectetur eos aut? Quia, repudiandae sit.
                 Voluptatibus inventore excepturi ullam provident rem alias quae
-                blanditiis soluta. Minima deleniti temporibus numquam!
+                blanditiis soluta.
               </p>
             </div>
             <div className="flex-item">
@@ -63,8 +61,7 @@ const Home = () => {
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Molestiae, sed odit fugiat maiores pariatur quibusdam veniam
-                facere numquam? Commodi assumenda temporibus voluptates animi
-                tempore sit incidunt omnis maxime similique iure.
+                facere numquam? Commodi assumenda temporibus.
               </p>
             </div>
           </div>

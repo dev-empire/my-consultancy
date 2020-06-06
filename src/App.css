@@ -88,12 +88,15 @@
   width: 15rem;
   height: 20rem;
   padding: 10px;
-  box-shadow: #313131 1px 1px 1px 1px;
+  box-shadow: #515151 0.5px 0.5px 0.5px 0.5px;
 }
-
+.shadow {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.015) !important;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.015) !important;
+}
 .flexbox > div:hover {
   padding: 0;
-  box-shadow: #515151 2.5px 2.5px 5px;
+  box-shadow: #313131 2.5px 2.5px 5px;
   cursor: pointer;
   padding: 20px;
 }
