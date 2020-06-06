@@ -11,7 +11,9 @@
 }
 
 .bg-img {
-  background-image: url('./img/bg_3.jpg');
+  background-image: url('./img/about.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
   height: 80vh;
   width: 100%;
 }
@@ -74,7 +76,6 @@
 }
 
 .flexbox > div {
-  /* border: #515151 0.5px solid; */
   border-radius: 20px;
   justify-content: center;
   text-align: center;
@@ -82,14 +83,12 @@
   width: 15rem;
   height: 20rem;
   padding: 10px;
-  box-shadow: #313131 2px 2px 2px 2px;
+  box-shadow: #313131 1px 1px 1px 1px;
 }
 
 .flexbox > div:hover {
   padding: 0;
   box-shadow: #515151 5px 5px 10px;
-
-  /* box-shadow: none; */
   cursor: pointer;
   padding: 20px;
 }
