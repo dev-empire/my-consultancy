@@ -1,38 +1,109 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 85%;
+  overflow: hidden;
+}
+
+.bg-img {
+  background-image: url('./img/bg_3.jpg');
+  height: 80vh;
+  width: 100%;
+}
+.bg-img::after {
+  background: rgba(0, 0, 0, 0.3);
+  /* opacity: 0.2; */
+  content: '';
+  height: 80%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.head {
+  text-align: center;
+  font-size: 35px;
+  font-style: oblique;
+  font-weight: 500;
+  margin: 2.5rem 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 0;
+}
+.grid > div {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.grid:nth-child(2),
+._grid {
+  align-items: center;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.grid-2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+  padding: 0 4rem;
+}
+
+.grid-2:first-child {
+  padding-top: 15px;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.flexbox > div {
+  border: #515151 0.5px solid;
+  border-radius: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  align-items: center;
+  width: 15rem;
+  height: 20rem;
 }
 
-.App-link {
-  color: #61dafb;
+.flexbox > div > h3 {
+  color: #313131;
+  padding-top: 10px;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.flexbox > div > p {
+  text-align: center;
+  padding: 0 15px;
+  line-height: 1.2;
+  margin: auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+@media (max-width: 563px) {
+  .grid {
+    grid-template-columns: 1fr;
   }
 }
