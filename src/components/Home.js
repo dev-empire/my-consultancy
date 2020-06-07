@@ -13,7 +13,7 @@ const Home = () => {
             <div className="shadow">
               <h3>ECSTASY</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Lorem ipsum dolor sit, amet vf6xtyfge adipisicing elit.
                 Repellendus ut deleniti tempora Lorem, ipsum dolor sit amet
                 consectetur adipisicing elit. Dolores, deserunt.
               </p>{' '}
